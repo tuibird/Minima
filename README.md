@@ -9,7 +9,7 @@ A really basic prompt with minimal hardcoded colours to blend into your terminal
 
 
 ```bash
-  # Install the two dependancies, starship & a nerd font
+  # Install the two dependencies, starship & a nerd font
   
   # Back up your current starship.toml
 
