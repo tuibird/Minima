@@ -1,8 +1,8 @@
 ## Minima
 
-A minimalist Starship prompt preset.
+Minimalist Starship prompt preset.
 
-a really basic prompt with minimal hardcoded colours to blend into your terminal theme.
+A really basic prompt with minimal hardcoded colours to blend into your terminal theme.
 
 
 ## Installation
