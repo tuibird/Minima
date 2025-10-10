@@ -1,0 +1,49 @@
+#Minima by Tui
+#
+format = """
+[ ](bright-black)\
+$directory\
+$git_branch\
+$git_state\
+$cmd_duration\
+[ ](bright-black)\
+[](bright-black)\
+$time\
+[ ](bright-black)\
+$line_break\
+$character"""
+
+[directory]
+style = "bg:bright-black"
+format = "[ $path]($style)"
+
+[directory.substitutions]
+"~" = "  "
+"Documents" = " 󰈙  "
+"Downloads" = "   "
+"Music" = "   "
+"Pictures" = "   "
+"Videos" = "   "
+".config" = "   "
+
+[character]
+success_symbol = "[  ]()"
+error_symbol = "[   ](red)"
+
+[git_branch]
+format = "[  $branch ]($style)"
+style = "bg:bright-black"
+
+[git_state]
+format = '\([$state($progress_current/$progress_total) ]($style)\)'
+style = "bg:bright-black"
+
+[cmd_duration]
+format = "[󰇘  󰔟$symbol $duration ]($style)"
+style = "bg:bright-black"
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:bright-black"
+format = '[󰥔 $time]($style)'
