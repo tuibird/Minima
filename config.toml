@@ -1,0 +1,3 @@
+[templates.starship]
+input_path = "~/.config/noctalia/starship-colors.toml"
+output_path = "~/.config/starship.toml"
