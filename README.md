@@ -22,9 +22,9 @@ Note: Only tested using fish. So it might work on zsh etc, but also might blow u
   cp starship.toml ~/.config
 
   # If you want Matugen functionality with Noctalia
-  # Go into Noctalia settings colorscheme tab, scroll to the bottom and enable user templates
-  cat config.toml >> $HOME/.config/noctalia/user-templates.toml
-  cp starship-colors.toml $HOME/.config/noctalia 
+  # First go into Noctalia settings colorscheme tab, scroll to the bottom and enable user templates
+  cat config.toml >> ~/.config/noctalia/user-templates.toml
+  cp starship-colors.toml ~/.config/noctalia 
 ```
     
 ## Examples
