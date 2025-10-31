@@ -29,8 +29,6 @@ Note: Only tested using fish. So it might work on zsh etc, but also might blow u
     
 ## Examples
 
-![App Screenshot](https://raw.githubusercontent.com/tuibird/Minima/refs/heads/main/example.png)
-
 ![App Screenshot](https://raw.githubusercontent.com/tuibird/Minima/refs/heads/main/example2.png)
 
 ![App Screenshot](https://raw.githubusercontent.com/tuibird/Minima/refs/heads/main/example3.png)
